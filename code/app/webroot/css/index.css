@@ -1,0 +1,45 @@
+.banner-box{width:100%;overflow:hidden;}
+.banner-box .swiper-wrapper .swiper-slide,.banner-box .swiper-wrapper .swiper-slide img{width:1160px;height:336px;}
+.banner-box .swiper-pagination-bullet{width:11px;height:11px;background:#5d5e61;opacity:1;}
+.banner-box .swiper-pagination-bullet-active{background:#db2a2a;}
+
+.cont1,.cont2,.cont3{width:100%;overflow:hidden;margin-top:10px;}
+.cont1_l{float:left;width:648px;height:428px;position:relative;}
+.cont1_l img,.cont1_l video{width:648px;height:428px;}
+.cont1_l a{display: block;width:648px;height:428px;}
+.cont_posText{position:absolute;width:628px;height:64px;line-height:64px;font-size:24px;color:#fff;overflow:hidden;bottom:0;left:0;padding:0 10px;background-color: rgba(0,0,0,0.8);}
+.cont1_r{float:right;width:492px;overflow:hidden;}
+.cont1_rTit{width:100%;border-bottom:solid 1px #4e4e4e;height:38px;line-height:38px;font-size:20px;color:#000;}
+.cont1_rTit a{float:right;color:#db2a2a;font-size:12px;margin-right:30px;}
+.cont1_r ul{width:100%;overflow:hidden;}
+.cont1_r ul li{float:left;width:220px;height:180px;overflow:hidden;margin:14px 40px 0 0;}
+.cont1_r ul li:nth-child(2n){margin-right:0;}
+.cont1_r ul li h3{height:34px;line-height:34px;width:100%;font-size:14px;color:#5d5e61;font-weight:normal;}
+.cont2_l{float:left;width:317px;height:255px;position:relative;margin-right:60px;}
+.cont2_l a,.cont2_l img{display: block;width:317px;height:255px;}
+.cont2_r{float:right;width:336px;height:249px;position:relative;margin-right:12px;}
+.cont2_r a,.cont2_r img{display: block;width:336px;height:249px;}
+.cont2_l span,.cont2_r span{position:absolute;bottom:0;right:0;height:18px;background:#fff;line-height:18px;font-size:12px;color:#000;padding:0 10px;}
+.cont2_c{float:left;width:380px;overflow:hidden;}
+.cont2_c h3{width:100%;font-size:14px;color:#d6003b;text-align:center;}
+.cont2_cTit{width:100%;text-align:center;overflow:hidden;padding:5px 0;}
+.cont2_cTit a{font-size:12px;color:#666666;}
+.cont2_cTit span{font-size:12px;display:inline-block;height:12px;color:#a0bcff;padding:0 5px;}
+.cont2_c ul,.cont2_c ul li{width:100%;overflow:hidden;}
+.cont2_c ul li{margin-top:8px;}
+.cont2_c ul li i{float:left;background:url("../img/dian_icon.jpg") no-repeat;width:3px;height:3px;display:inline-block;margin:7px 5px 0 0;}
+.cont2_c ul li p{float:left;width:370px;height:19px;line-height:18px;overflow:hidden;}
+.cont2_c ul li p a{color:#3b5998;font-size:14px;}
+.cont2_c ul li p a span,.cont2_c ul li p a em{border-bottom:dotted 1px #9fb3d9;margin-right:5px;}
+.cont2_c ul li p a em{color:#d6003b;}
+.cont3_l{float:left;width:393px;overflow:hidden;}
+.cont3_l a,.cont3_l img{width:393px;height:239px;display: block;}
+.cont3 ul{float:right;width:750px;overflow:hidden;}
+.cont3 ul li{width:370px;float:left;margin:10px 10px 20px 0;height:88px;overflow:hidden;}
+.cont3 ul li:nth-child(2n){margin-right:0;}
+.cont3_liL{float:left;width:100px;margin-right:10px;}
+.cont3_liL img{width:100px;height:88px;}
+.cont3_liR{float:left;width:260px;overflow:hidden;}
+.cont3_liR h3{width:100%;overflow:hidden;height:28px;line-height:28px;}
+.cont3_liR h3 a{font-size:18px;color:#000;font-weight:normal;}
+.cont3_liR p{width:100%;line-height:20px;height:60px;overflow:hidden;font-size:14px;color:#000;}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{padding:0;margin:0;color: #686868;font:12px/1.5 Microsoft YaHei,arial}
+ul,li,div,dd,dt,p,dl,h1,h2,h3,h4,h5,h6,ol,table,td,form,img{border:none;padding:0;margin:0; }
+div,li{list-style:none;word-wrap: break-word;/*word-break:normal;*/word-break:break-all; }
+img {vertical-align: middle;image-rendering: optimizeQuality;-ms-interpolation-mode: bicubic;}
+.family-s{font-family:Simsun;}
+span{display:inline-block;}
+input,img,label {vertical-align:middle;}
+input{color:#545454;}
+i{font-style:inherit;}
+button{cursor:pointer;}
+input, textarea,select,button{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 12px Arial;
+    outline:none;
+}
+input:disabled{
+    border:1px solid #e2e2e2;
+    background-color:#fff;
+    color:#666;
+}
+input[disabled]{
+    border:1px solid #e2e2e2;
+    background-color:#fff;
+    color:#666;
+}
+textarea{resize:none;}
+select{
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: #999;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+iframe{background:#fff;}
+.cursor{cursor:pointer;}
+a:focus {outline:none;-moz-outline:none;} 
+a {color: #686868;text-decoration: none;cursor:pointer;}
+a:hover {text-decoration: none;color:#ed145b;}
+em{font-style:inherit;}
+li{vertical-align:bottom;}
+.fl{float:left;}
+.fr{float:right;}
+/* 两种清浮动方*/
+.clearfix:after{content: "."; display: block; height: 0; overflow:hidden; font-size:0; line-height:0; clear: both; visibility: hidden; }
+.clearfix{display:inline-block;*zoom:1;}
+.clear {clear:both;}
+.cont-box{width:1160px;margin:10px auto;overflow:hidden;}
+
+/*头部公用*/
+.headerBox{width:100%;background:#db2a2a;overflow:hidden;}
+.header{width:1160px;margin:0 auto;overflow:hidden;height:68px;}
+.logo-text{float:left;line-height:68px;}
+.logo-text a{font-size:30px;color:#fff;font-family:SimHei;}
+.header ul{overflow:hidden;padding-left:200px;float:left;}
+.header ul li{float:left;line-height:68px;padding:0 15px;}
+.header ul li a{font-size:18px;color:#fff;}
+/*底部*/
+.footerBox{width:100%;height:88px;line-height:88px;background:#4b4e57;font-size:16px;color:#9da0aa;text-align:center;}
+
+/*分页*/
+.pages-box{width:100%;overflow:hidden;text-align:right;padding:15px 0;}
+
+.demo-image{width: 100%;}
+.M-box,.M-box1,.M-box2,.M-box3,.M-box4{position: relative; text-align: right; zoom: 1;}
+.M-box:before,.M-box:after,.M-box1:before,.M-box1:after ,.M-box2:before,.M-box2:after ,.M-box3:before,.M-box3:after,.M-box4:before,.M-box4:after{content:""; display:table;}
+.M-box:after,.M-box1:after,.M-box2:after,.M-box3:after,.M-box4:after{clear:both; overflow:hidden;}
+.M-box span,.M-box1 span,.M-box2 span,.M-box3 span,.M-box4 span{text-align:center;display:inline-block; margin:0 5px; width: 38px; height: 38px; line-height: 38px; color: #ff3c00; font-size: 14px;}
+.M-box .active,.M-box1 .active,.M-box2 .active,.M-box3 .active,.M-box4 .active{text-align:center;display:inline-block;margin:0 5px; width: 38px; height: 38px; line-height: 38px; background: #ff3c00; color: #fff; font-size: 14px; border: 1px solid #9b7f1d;}
+.M-box a,.M-box1 a,.M-box2 a,.M-box3 a,.M-box4 a{text-align:center;display:inline-block;margin:0 5px; width: 38px; height: 38px; line-height: 38px; background: #fff; border: 1px solid #ebebeb; color: #ff3c00; font-size: 14px;}
+.M-box a:hover,.M-box1 a:hover,.M-box2 a:hover,.M-box3 a:hover,.M-box4 a:hover{color:#fff; background: #ff3c00;}
+.M-box .next,.M-box .prev,.M-box2 .next,.M-box2 .prev{font-family: "Simsun"; font-size: 16px; font-weight: bold;width:auto;padding:0 5px;}
+.now,.count{padding:0 5px; color:#f00;}
+.M-box input{float: left; margin:0 5px; width: 38px; height: 38px; line-height: 38px; text-align: center; background: #fff; border: 1px solid #ebebeb; outline: none; color: #bdbdbd; font-size: 14px;}
